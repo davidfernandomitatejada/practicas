@@ -14,6 +14,7 @@ public class Main {
         // Llamar a los métodos que ya imprimen directamente
         alumno1.mostrarInfo();
         alumno1.estudiar();
+        alumno1.hacerTarea();
 
         maestro1.mostrarInfo();
         maestro1.darClase();

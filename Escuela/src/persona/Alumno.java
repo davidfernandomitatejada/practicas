@@ -13,8 +13,10 @@ public class Alumno extends Persona {
         super.mostrarInfo();
         System.out.println("Grado: " + grado);
     }
-
     public void estudiar() {
         System.out.println(nombre + " está estudiando para su examen.");
+    }
+    public void hacerTarea() {
+        System.out.println(nombre + " está haciendo su tarea.");
     }
 }
